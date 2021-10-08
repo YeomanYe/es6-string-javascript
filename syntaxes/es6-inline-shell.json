@@ -18,7 +18,7 @@
 	},
 	"patterns": [
 		{
-			"begin": "(.?(javascript))(`)",
+			"begin": "(.?(\\$))(`)",
 			"end": "(`)",
 			"beginCaptures": {
 				"1": {
@@ -73,5 +73,5 @@
 			]
 		}
 	],
-	"scopeName": "inline.es6-javascript"
+	"scopeName": "inline.es6-shell"
 }

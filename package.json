@@ -1,7 +1,7 @@
 {
-  "name": "es6-string-javascript",
-  "displayName": "es6-string-javascript",
-  "description": "Highlight javascript language in ES6 template literals",
+  "name": "es6-string-shell",
+  "displayName": "es6-string-shell",
+  "description": "Highlight shell language in ES6 template literals",
   "version": "1.0.1",
   "publisher": "zjcompt",
   "icon": "docs/logo.png",
@@ -34,12 +34,13 @@
           "source.js",
           "source.ts",
           "source.jsx",
-          "source.tsx"
+          "source.tsx",
+          "source.sh"
         ],
-        "scopeName": "inline.es6-javascript",
-        "path": "./syntaxes/es6-inline-javascript.json",
+        "scopeName": "inline.es6-shell",
+        "path": "./syntaxes/es6-inline-shell.json",
         "embeddedLanguages": {
-          "meta.embedded.block.javascript": "javascript"
+          "meta.embedded.block.shellscript": "shellscript"
         }
       }
     ]
